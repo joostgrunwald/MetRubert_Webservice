@@ -7,7 +7,7 @@ uwsgi --plugin python3 \
       --gid ${UWSGI_GID} \
       --master \
       --socket "127.0.0.1:8888" \
-      --wsgi-file /etc/alpino_webservice.wsgi \
+      --wsgi-file /etc/metaphorclam.wsgi \
       --processes ${UWSGI_PROCESSES:-2} \
       --threads ${UWSGI_THREADS:-2} \
       --manage-script-name

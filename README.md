@@ -1,14 +1,10 @@
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-
-# Alpino webservice
+# MetRubert webservice
 
 *(Licensed under the GNU Public License v3)*
 
-This is a webservice for [Alpino](http://www.let.rug.nl/vannoord/alp/Alpino/),
-a dependency parser for Dutch developed at the University of Groningen. The
+This is a webservice for [MetRubert](https://github.com/joostgrunwald/MetRuBert),
+a prediction model for metaphors in Dutch and English.
 webservice is powered by [CLAM](https://proycon.github.io/clam). It offers a RESTful API as well as a web-interface for human end-users.
-
-This webservice has support for [FoLiA](https://github.com/proycon/folia) input/output.
 
 ## Installation
 

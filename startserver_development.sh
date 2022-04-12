@@ -4,4 +4,5 @@ if [ ! -z "$VIRTUAL_ENV" ]; then
 else
     echo "No virtual environment detected, you have to take care of running pip install yourself!">&2
 fi
-CLAM_HOST=localhost CLAM_PORT=8080 clamservice -d alpino_webservice.alpino_webservice
+CLAM_HOST=localhost CLAM_PORT=8080 clamservice -d alpino_webservice.metaphorclam
+

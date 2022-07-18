@@ -39,5 +39,5 @@ setup(
     ],
     package_data = {'metaphorclam':['*.wsgi','*.yml','*.sh'] },
     include_package_data=True,
-    install_requires=['CLAM >= 3.0', 'natsort'] #Alpino is also required but is an external dependency that setuptools can't handle, we specify it in codemeta-harvest.json for metadata harvesting purposes
+    install_requires=['CLAM >= 3.0', 'natsort', 'FoLiA-tools'] #Alpino is also required but is an external dependency that setuptools can't handle, we specify it in codemeta-harvest.json for metadata harvesting purposes
 )

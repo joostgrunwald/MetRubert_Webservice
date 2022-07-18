@@ -2,7 +2,7 @@
 #it in turns draws from environment variables.
 #It will only be used when there is no host-specific configuration file
 #(frog_webservice.\$HOSTNAME.yml)
-root: "{{CLAM_ROOT=/tmp}}/alpino_webservice-userdata"
+root: "{{CLAM_ROOT=/tmp}}/metaphorclam-userdata"
 port: "{{CLAM_PORT=8080}}"
 use_forwarded_host: "{{CLAM_USE_FORWARDED_HOST|bool=false}}" #(set to true or false, enable this if you run behind a properly configured reverse proxy only)
 switchboard_forward_url: "{{CLAM_SWITCHBOARD_FORWARD_URL}}" #e.g. "https://switchboard.clarin.eu/#/frog/$BACKLINK/$MIMETYPE/nld"

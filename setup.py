@@ -17,7 +17,7 @@ setup(
     name = "metaphorclam",
     version = "0.4", #make sure SYSTEM_VERSION in your service configuration is set to the same value!
     author = "Joost Grunwald", #adapt this
-    description = ("MetRubert is a dutch metaphor precictor. You can upload either tokenised or untokenised files (which will be automatically tokenised for you using ucto), the output will consist of a zip file containing XML files, one for each sentence in the input document."),
+    description = ("MetRubert is a dutch metaphor predictor. You can upload either tokenised or untokenised files (which will be automatically tokenised for you using ucto), the output will consist of a zip file containing XML files, one for each sentence in the input document."),
     license = "GPL-3.0-only",
     keywords = [ "nlp", "linguistics", "MetRubert", "dependency parsing", "syntax"],
     url = "https://github.com/joostgrunwald/MetRubert_webservice",

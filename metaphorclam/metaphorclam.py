@@ -126,14 +126,12 @@ if host == "yourhostname":
     #using pwhash and plaintext password in this code is not secure!!
 
     USERS = {
-	 'jgrunwald': '631e314134027c2b443ef61a08d4116a',
-	 'wspooren': '2d72a01cc4f7aecad30cef8c42aea5da',
-	 'greijnierse': '2d72a01cc4f7aecad30cef8c42aea5da',
+    
     }
 
     #List of usernames that are administrator and can access the administrative web-interface (on URL /admin/)
     ADMINS = {
-         'jgrunwald': '631e314134027c2b443ef61a08d4116a',
+	    
     }
 
 else:

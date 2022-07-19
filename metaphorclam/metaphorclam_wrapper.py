@@ -52,7 +52,7 @@ import pasmaparser_cov_melBert_allpos_clam as parser
 
 import pathlib
 #import our own model
-from MetRobert_run2 import main_dutch
+from MetRuBert_production import main_dutch
 
 #import our own output prettifier
 import outputgenerator as outputgen

@@ -30,13 +30,13 @@ A ``Dockerfile`` is provided for deployment in production environments.
 From the repository root, build as follows:
 
 ``
-$ docker build -t proycon/alpino_webservice .
+$ docker build -t joostgrunwald/metaphorclam .
 ``
 
 Consult the [Dockerfile](Dockerfile) for various build-time parameters that you may want to set for your own production environment.
 
-When running, mount the path where you want the user data stored into the container, a directory `alpino` will be created here:
+When running, mount the path where you want the user data stored into the container, a directory `metaphorclam-userdata` will be created here:
 
 ``
-$ docker run -p 8080:80 -v /path/to/data/dir:/data proycon/alpino_webservice
+$ docker run -p 8080:80 -v /path/to/data/dir:/data joostgrunwald/metaphorclam
 ``

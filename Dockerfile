@@ -67,7 +67,7 @@ ENV UWSGI_UID=100
 ENV UWSGI_GID=100
 
 # By default, data from the webservice will be stored on the mount you provide
-ENV CLAM_ROOT=/data/alpino_webservice
+ENV CLAM_ROOT=/data/metaphorclam
 ENV CLAM_PORT=80
 # (set to true or false, enable this if you run behind a properly configured reverse proxy only)
 ENV CLAM_USE_FORWARDED_HOST=false
@@ -109,9 +109,9 @@ RUN cp /usr/src/webservice/runit.d/nginx.run.sh /etc/service/nginx/run &&\
     chmod a+x /etc/service/nginx/run &&\
     cp /usr/src/webservice/runit.d/uwsgi.run.sh /etc/service/uwsgi/run &&\
     chmod a+x /etc/service/uwsgi/run &&\
-    cp /usr/src/webservice/alpino_webservice/alpino_webservice.wsgi /etc/alpino_webservice.wsgi &&\
-    chmod a+x /etc/alpino_webservice.wsgi &&\
-    cp -f /usr/src/webservice/alpino_webservice.nginx.conf /etc/nginx/sites-enabled/default
+    cp /usr/src/webservice/metaphorclam/metaphorclam.wsgi /etc/metaphorclam.wsgi &&\
+    chmod a+x /etc/metaphorclam.wsgi &&\
+    cp -f /usr/src/webservice/metaphorclam.nginx.conf /etc/nginx/sites-enabled/default
 
 # Install the the service itself
 RUN cd /usr/src/webservice && pip install . && rm -Rf /usr/src/webservice

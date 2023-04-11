@@ -1,0 +1,301 @@
+body {
+	background: url(http://tw.greywool.com/i/pdg6_.png);
+    font-size: 14px;
+}
+a:link {
+    color: deepskyblue;
+}
+#gradient {
+    display: block;
+    background: rgba(0, 0, 0, 0) linear-gradient(rgba(30, 30, 30, 0.7), rgba(0, 0, 0, 0.1)) repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -100;
+}
+#footer {
+	background-color: #28a74596;
+	color: #d7d7d7;
+}
+#description { 
+	background-color: #2b2b2be6;
+    color: #d7d7d7;
+}
+#startproject {
+	background-color: #2b2b2be6;
+    color: #d7d7d7;
+}
+#startprojectbutton {
+	background-color: seagreen;
+	border-color: seagreen;
+}
+#index {
+	background-color:#2b2b2be6;
+    color: #d7d7d7;
+}
+#status {
+	background-color:#2b2b2be6;
+    color: #d7d7d7;
+}
+#input {
+	background-color:#2b2b2be6;
+    color: #d7d7d7;
+}
+#profiles {
+	background-color:#2b2b2be6;
+    color: #d7d7d7;
+}
+#indexbutton {
+	margin-top: 65px;
+}
+.time {
+	color: seagreen!important;
+}
+.sorting_1 {
+	background-color: #2b2b2b;
+}
+.bg-dark {
+	background-color: #000000c2!important;
+}
+.btn-outline-secondary {
+	color: red;
+    border-color: seagreen;
+}
+#status {
+	
+}
+#container {
+    padding-bottom: 2px;
+}
+#cover {
+    width: 100%;
+    background-color: #262a2d;
+    overflow: hidden;
+}
+
+#status p {
+    text-align: center;
+    font-style: italic;
+    color: #434343;
+}
+
+
+/*
+.parameters table th, #parameters table  td {
+  border-bottom:  1px solid #e1e1e1;
+}
+
+.parameters h4 {
+    color: #ac8644;
+    text-decoration: small-caps;
+    border-bottom:  1px solid #ca9c4d;
+}
+*/
+
+input[type="text"], select, textarea, .form-control, #editorfilename, #urluploadfile, #projectname {
+    background: #343a40b0;
+	color: lightgoldenrodyellow;
+}
+
+input.start {
+    font-weight: bold;
+    font-size: 160%;
+    min-width: 100px;
+    width: 20%;
+}
+
+
+#status p {
+    text-align: center;
+    font-style: italic;
+    color: #434343;
+}
+
+#statuslog td.time {
+    font-size: 80%;
+    font-family: monospace;
+    color: gray;
+}
+#statuslog td.message {
+    font-style: italic;
+}
+
+#progressvalue {
+    background: gray;
+    color: white;
+}
+
+
+
+.qq-upload-button {
+	background-color: #ffc107!important;
+    border-color: #ffc107!important;
+}
+.oi-person::before {
+    color: seagreen;
+}
+
+#container .qq-upload-button {
+    background: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer !important;
+    width: 50%;
+    padding: 10px;
+    font-size: 1rem;    
+}
+.typefirst {
+	opacity: 0;
+}
+#container .qq-upload-button:hover {
+    background: #0062cc;
+    border-color: #0062cc;
+    cursor: pointer !important;
+}
+#container .qq-upload-button input, #container .qq-upload-button div {
+    cursor: pointer !important;
+}
+
+.card {
+    margin-bottom: 3px;
+	background-color:#2b2b2be6;
+    color: #d7d7d7;
+}
+.nav-link.active {
+	background-color: #ffc107!important;
+    border-color: #ffc107!important;
+}
+
+div#actionindex p {
+    margin-left: 20px;
+}
+div#actionindex form {
+    margin-left: 30px;
+}
+
+span.running {
+    color: #b216fb;
+    font-weight: bold;
+}
+
+span.staging {
+    color: #292975;
+    font-weight: bold;
+}
+
+span.done {
+    color: #276427;
+    font-weight: bold;
+}
+
+input[type=submit].btn-block { 
+	background-color: #ffc107!important;
+    border-color: #ffc107!important;
+}
+#startbutton {
+    margin-top: 5px;
+}
+.qq-upload-list {
+	background-color: #2aab48c9;
+}
+tr.even {
+    background: #eee !important;
+}
+tr, td {
+    vertical-align: top;
+}
+.dataTables_info {
+	color: #d7d7d7!important;
+}
+.dataTables_length {
+	color: #d7d7d7!important;
+}
+.dataTables_wrapper {
+	color: #d7d7d7!important;
+}
+.dataTables_filter {
+	color: #d7d7d7!important;
+}
+.dataTables_processing {
+	color: #d7d7d7!important;
+}
+.dataTables_paginate {
+	color: #d7d7d7!important;
+}
+.paginate_button.disabled:active{
+	color: #d7d7d7!important;
+    cursor: default;
+    border: 1px solid transparent;
+    background: transparent;
+    box-shadow: none;
+}
+.paginate_button.disabled:hover{
+	color: #28a74596!important;
+    cursor: default;
+    border: 1px solid transparent;
+    background: transparent;
+    box-shadow: none;
+}
+select {
+	background: #343a40b0;
+    color: seagreen;
+}
+
+table.dataTable tbody tr {
+	background-color: #2b2b2b!important;
+}
+
+[type=search]{
+	outline-offset: -2px;
+    -webkit-appearance: none;
+    background-color: #50b96e57!important;
+}
+
+table .file {
+    font-family: monospace;
+}
+
+#actions input {
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+.deletefile {
+    color: #800;
+    cursor: pointer;
+}
+
+.card-text {
+    max-width: 800px;
+}
+#systeminfo {
+    float: right;
+    width: 350px;
+    z-index: 50;
+    word-wrap: break-word;
+	background-color: seagreen;
+	color: #2b2b2b;
+}
+#customhtml .alert {
+    clear: right;
+}
+#customhtml {
+    margin-top: 10px;
+}
+#parameters table {
+    margin-left: 20px;
+}
+.qq-upload-file {
+    font-family: monospace;
+}
+.qq-upload-status-text {
+    font-size: 90%;
+}
+textarea.form-control {
+    height: 240px;
+}

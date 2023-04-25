@@ -110,6 +110,7 @@ RUN cp /usr/src/webservice/runit.d/nginx.run.sh /etc/service/nginx/run &&\
     cp /usr/src/webservice/runit.d/uwsgi.run.sh /etc/service/uwsgi/run &&\
     chmod a+x /etc/service/uwsgi/run &&\
     cp /usr/src/webservice/metaphorclam/metaphorclam.wsgi /etc/metaphorclam.wsgi &&\
+    cp /usr/src/webservice/metaphorclam/style_joost.css /etc/style_joost.css &&\
     chmod a+x /etc/metaphorclam.wsgi &&\
     cp -f /usr/src/webservice/metaphorclam.nginx.conf /etc/nginx/sites-enabled/default
 

@@ -112,11 +112,20 @@ RUN cp /usr/src/webservice/runit.d/nginx.run.sh /etc/service/nginx/run &&\
     cp /usr/src/webservice/metaphorclam/metaphorclam.wsgi /etc/metaphorclam.wsgi &&\
     cp /usr/src/webservice/metaphorclam/style_joost.css /etc/style_joost.css &&\
     chmod a+x /etc/metaphorclam.wsgi &&\
+    chmod a+x /etc/style_joost.css &&\
     cp -f /usr/src/webservice/metaphorclam.nginx.conf /etc/nginx/sites-enabled/default
 
 # Install the the service itself
 RUN cd /usr/src/webservice && pip install . && rm -Rf /usr/src/webservice
 RUN ln -s /usr/local/lib/python3.*/dist-packages/clam /opt/clam
+
+# Clone the GitHub repository and download the model  
+RUN git clone https://github.com/joostgrunwald/MetRuBert_module.git && \  
+    wget https://huggingface.co/joostgrunwald/MetRuBert/blob/main/pytorch_model.bin -O pytorch_model.bin && \  
+    cp pytorch_model.bin MetRuBert_module/MetRobert_rel/saves/roberta-base/3_20220822-1301/  
+  
+# Run the model  (IS THIS USABLE?)
+# CMD ["python3", "MetRuBert_module/MetRuBert.py"] 
 
 VOLUME ["/data"]
 EXPOSE 80
